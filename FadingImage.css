@@ -6,4 +6,26 @@
     background-color: salmon;
     height: 500px;
     width: 500px;
+    -webkit-animation-name: BigCircle; 
+    animation-name: BigCircle;
+    animation-duration: 15s;
+} 
+
+@keyframes BigCircle {
+    0%   {opacity: 0};
+    25%  {opacity: 0.1};
+    50%  {opacity: 0.5};
+    100% {opacity: 1.0};
+} 
+
+h1 {
+    -webkit-animation-name: text; 
+    animation-name: text;
+    animation-duration: 180s;    
+} 
+
+@keyframes text {
+    0% {opacity: 0};
+    50% {opacity: 0.5};
+    100% {opacity: 1.0};
 }
